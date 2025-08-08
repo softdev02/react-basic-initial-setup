@@ -14,46 +14,38 @@ This is a modern React application setup with TypeScript and various tools for d
 
 ## Development Dependencies
 
-- **TypeScript**: Adds static typing to JavaScript
-- **Vite + SWC**: Fast development server and bundler with SWC compiler
-- **ESLint**: Code linting tool with various plugins for code quality
-- **Prettier**: Code formatting tool
-- **Cypress**: End-to-end testing framework
-- **Vitest**: Unit testing framework
-- **Cross-env**: Cross-platform environment variable setting
+### TypeScript and Type Definitions
+- **typescript**: Adds static typing to JavaScript
+- **@types/react**: TypeScript definitions for React
+- **@types/react-dom**: TypeScript definitions for React DOM
+- **@types/node**: TypeScript definitions for Node.js
+- **@types/jest**: TypeScript definitions for Jest
+- **@types/cypress**: TypeScript definitions for Cypress
+- **ts-node**: TypeScript execution environment for Node.js
 
-## Testing Setup
+### Build and Development Tools
+- **vite**: Fast development server and build tool
+- **@vitejs/plugin-react-swc**: SWC-powered React plugin for Vite
+- **vite-plugin-mock-dev-server**: Mock server plugin for Vite
+- **cross-env**: Cross-platform environment variable setting
 
-### Unit Testing with Vitest
+### Linting and Formatting
+- **eslint**: JavaScript/TypeScript code linter
+- **@eslint/js**: ESLint's core JavaScript rules
+- **@typescript-eslint/parser**: TypeScript parser for ESLint
+- **@typescript-eslint/eslint-plugin**: TypeScript-specific linting rules
+- **eslint-plugin-react-hooks**: React Hooks linting rules
+- **eslint-plugin-react-refresh**: React Refresh linting support
+- **eslint-formatter-codeframe**: Codeframe formatter for ESLint
+- **typescript-eslint**: ESLint support for TypeScript
+- **prettier**: Code formatting tool
+- **globals**: Global variables definition
 
-This project uses Vitest for unit testing, which provides:
-- Fast test execution with native ESM support
-- Jest-compatible API
-- Built-in mocking capabilities
-- Watch mode for development
-- TypeScript support out of the box
+### Testing
+- **vitest**: Unit testing framework for Vite
+- **cypress**: End-to-end testing framework
 
-Example of a test with mocking:
-```typescript
-import { vi, describe, it, expect } from 'vitest'
 
-describe('Example test with mock', () => {
-  it('demonstrates mocking', () => {
-    const mockFn = vi.fn()
-    mockFn.mockReturnValue('mocked value')
-    expect(mockFn()).toBe('mocked value')
-  })
-})
-```
-
-### End-to-End Testing with Cypress
-
-Cypress is configured for end-to-end testing, providing:
-- Real browser testing environment
-- Time-travel debugging
-- Automatic waiting
-- Network traffic control
-- Visual testing tools
 
 ## Available Scripts
 
