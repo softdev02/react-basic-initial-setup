@@ -4,13 +4,13 @@ This is a modern React application setup with TypeScript and various tools for d
 
 ## Core Dependencies
 
-- **React **: Front-end UI library for building user interfaces
-- **React DOM **: React rendering for web browsers
-- **React Router DOM **: Routing library for React applications
-- **Zustand **: Lightweight state management solution
+- **React**: Front-end UI library for building user interfaces
+- **React DOM**: React rendering for web browsers
+- **React Router DOM**: Routing library for React applications
+- **Zustand**: Lightweight state management solution
 - **TanStack React Query **: Data fetching and caching library
 - **Axios**: HTTP client for making API requests
-- **TailwindCSS **: Utility-first CSS framework
+- **TailwindCSS**: Utility-first CSS framework
 
 ## Development Dependencies
 
